@@ -1,0 +1,29 @@
+/.idea
+*.iml
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# misc
+.DS_Store
+*.pem
+yarn.lock
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+report.*.json
+
+# project
+/build
+/packages/*/build/
+/packages/*/build-tmp/
+/packages/*/node_modules/
+/packages/*/bundle-version.json
+/scripts/lib
+/phragon-build.conf.json
+todo.md
+test-*
